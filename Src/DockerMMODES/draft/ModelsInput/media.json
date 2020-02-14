@@ -1,0 +1,63 @@
+[
+    {
+        "PERTURBATION" : "START",
+        "MEDIA":{
+            "D-Galactose_C6H12O6" : "0.05",
+            "L-Lactate_C3H5O3" : "0.05",
+            "Sodium_Na" : "26.4",
+            "CO2_CO2" : "16",
+            "potassium_K" : "1.8",
+            "Calcium_Ca" : "0.68",
+            "Cu2+_Cu" : "1.8",
+            "Fe2+_Fe" : "1.8224",
+            "Fe3+_Fe" : "0.0916117952",
+            "Co2+_Co" : "0.0008",
+            "Mn2+_" : "0.1",
+            "H2O_H2O" : "1",
+            "Acetate_C2H4O2" : "0.28",
+            "Folate_C19H19N7O6" : "0.0002",
+            "Riboflavin_C17H20N4O6" : "0.0002",
+            "Thiamin_C12H17N4OS" : "0.0002",
+            "Nicotinate_C6H5NO2": "0.0004",
+            "L-Cysteine_C3H7NO2S" : "4",
+            "L-Alanine_C3H7NO2": "0.95",
+            "L-Methionine_C5H11NO2S" : "0.5",
+            "L-Serine_C3H7NO3" : "1.35",
+            "L-Tryptophan_C11H12N2O2" : "0.3",
+            "L-Threonine_C4H9NO3" : "0.3",
+            "L-Asparagine_C4H8N2O3" : "0.3",
+            "L-Tyrosine_C9H11NO3" : "0.3",
+            "L-Glutamine_C5H10N2O3" : "0.4",
+            "L-Valine_C5H11NO2" : "4",
+            "L-Leucine_C6H13NO2" : "4",
+            "psicoselysine_C12H25N2O7" : "4",
+            "Zinc_Zn" : "0.4",
+            "Phosphate_H3O4P" : "4",
+            "Ammonium_H3N" : "4",
+            "Spermidine_C7H19N3" : "4",
+            "Xanthine_C5H4N4O2" : "4",
+            "N-Acetyl-D-glucosamine_C8H15NO6" : "4",
+            "Dodecanoate (n-C12:0)_C12H24O2" : "4",
+            "tetradecanoate (n-C14:0)_C14H28O2" : "4",
+            "octadecanoate (n-C18:0)_C18H36O2" : "4"
+        }
+    },
+    {
+        "PERTURBATION" : "FOS",
+        "MEDIA" : {
+            "Kestose_C18H32O16" : "0.01"
+        }
+    },
+    {
+        "PERTURBATION" : "Inulin",
+        "MEDIA" : {
+            "Inulin_29FruGlc" : "0.0005"
+        }
+    },
+    {
+        "PERTURBATION" : "Starch",
+        "MEDIA" : {
+            "Starch_11Glc" : "0.0005"
+        }
+    }
+]
