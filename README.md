@@ -46,8 +46,12 @@ Run simulations:
 You can install MMODES locally in your host, following the instructions at https://github.com/carrascomj/mmodes
 or you can run the MMODES docker image: 
 ```bash
-sudo docker run -it --volume "$HOME/DockerOutputMDPbiomeGEM":/root/cleanapp/host carrascomj/mmodes
+sudo docker run -it --volume "$HOME/DockerOutputMDPbiomeGEM":/home/cleanapp carrascomj/mmodes
 ```
+
+Copy your designed simulation file (run_MyCommunity_simulations.py) in "\$HOME/DockerOutputMDPbiomeGEM" and your GEMs in the right pathway (ex. "\$HOME/DockerOutputMDPbiomeGEM/draft/ModelsInput/").
+
+As an example, you could copy the files from https://github.com/beatrizgj/MDPbiomeGEM/tree/master/Src/DockerMMODES, or  inside the docker container from /app directory.
 
 Inside the docker (or in the bash terminal), run the simulations with:
 ```bash
@@ -56,7 +60,7 @@ python3 run_Atrazine_simulations.py <num_processors> <num_simulations>
 
 For example, running in background, for example:
 ```bash
-nohup python3 run_Atrazine_simulations.py 6 100 >& output_runMMODES.txt &
+nohup python3 run_Atrazine_simulations.py 6 10 >& output_runMMODES.txt &
 ```
 
 #### Step 1.3
@@ -108,5 +112,9 @@ b.- Go to MDPbiome folder, open and run step by step config_MDPbiome_template.ip
 
 c.- Then, you need to move the folder with the results (for example 'CommunityExample') to /work folder, to preserve the result files when you close the docker
 
+***
+
+### Datasets
+The input and output data files used in the current MDPbiomeGEM case studies are available at Zenodo: http://doi.org/10.5281/zenodo.3667601
 
 ***
